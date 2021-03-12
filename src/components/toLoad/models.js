@@ -10,6 +10,14 @@ export let models = {
 			street: "",
 			city: "",
 			postalCode: "",
+			country: ""
+		},
+
+		address2: {
+			street: "",
+			city: "",
+			postalCode: "",
+			country: ""
 		},
 
 		phone: "",
@@ -17,4 +25,8 @@ export let models = {
 		birthdate: "",
 		creationDate: "",
 	},
+
+	restaurant: {
+		name: ''
+	}
 };
