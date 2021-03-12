@@ -22,7 +22,7 @@
 
 		<v-navigation-drawer v-model="userDrawer" color="info" right temporary absolute dark>
 			<v-list class="py-0">
-				<v-list-item two-line :class="miniVariant && 'px-0'" v-if="loggedIn">
+				<v-list-item two-line class="px-0" v-if="loggedIn">
 					<v-list-item-avatar>
 						<img v-if="user.photoURL" :src="user.photoURL">
 						<img v-else src="https://images.vexels.com/media/users/3/185786/isolated/lists/bd8af8ec178972df7825765559d62d2c-kawaii-hot-choco.png">
